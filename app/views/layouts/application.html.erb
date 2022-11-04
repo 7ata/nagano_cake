@@ -12,6 +12,9 @@
 
   <body>
     <header>
+      <div class="header-logo">
+        LOGO
+      </div>
           <% if admin_signed_in? %>
            <li>
              <%= link_to "ログアウト", destroy_admin_session_path, method: :delete%>

@@ -4,6 +4,7 @@
   </div>
   <div class= "row">
     <div class= "col-sm-12 col-md-8 col-lg-5 px-5 px-sm-0 col-auto">
+
       <%= form_with model: @genre,url: {controller: 'genres', action: 'create'} do |f| %>
       <div class="form-group">
         <%= f.label :"ジャンル名" %>
